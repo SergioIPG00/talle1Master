@@ -1,0 +1,29 @@
+version: "3"
+
+services:
+  web:
+    container_name: taller1App
+    restart: always
+    build: .
+    ports:
+      - "4000:3000"
+    links:
+      - mongo
+    volumes:
+      - .:/usr/src/app    
+
+  mongo:
+    image: mongo
+    container_name: mongodb
+    restart: always
+    ports:
+      - 27018:27017
+    volumes:
+      - ./data:/data/db
+    #environment:
+    # - MONGO_INITDB_ROOT_USERNAME=user
+    # - MONGO_INITDB_ROOT_PASSWORD=pass
+    expose:
+      - 27018
+    command: --quiet
+    

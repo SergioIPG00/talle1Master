@@ -12,7 +12,7 @@ para porder ejecutar pruebas en los diferentes servicios se debe tener en cuenta
 
 Servicio para crear un nuevo usuario:
 
-https://github.com/SergioIPG00/talle1Master/blob/b9d8b8cc800416a2390d7ed180c41cb69727af01/img/ServicioPost.PNG
+[![ServicioPost.png](https://github.com/SergioIPG00/talle1Master/blob/b9d8b8cc800416a2390d7ed180c41cb69727af01/img/ServicioPost.PNG)
 
 en este servcio se debe user un body que contenga un json con la estuctura del modelo que se expone en user.js en la carpeta models
 

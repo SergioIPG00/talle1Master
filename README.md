@@ -11,3 +11,8 @@ Ejecutando Pruebas
 para porder ejecutar pruebas en los diferentes servicios se debe tener en cuenta que algunos nesecitan enviar un body para funcionar a continuacion se mostraran ejemplos de los diferenetes servicio
 
 Servicio para crear un nuevo usuario:
+
+img/ServicioPost.PNG
+
+en este servcio se debe user un body que contenga un json con la estuctura del modelo que se expone en user.js en la carpeta models
+

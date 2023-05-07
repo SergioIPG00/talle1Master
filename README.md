@@ -32,13 +32,14 @@ Servicio de actulzar un usuario:
 
 [![servicioPut.png](https://github.com/SergioIPG00/talle1Master/blob/ccd14fabb89e7327521a709c763cf7b2230af689/img/servicioPut.PNG)
 
-En este servcio se debe agregar el documento que se desea actulizar como se mestra en la imagen, de igul manera en el body se debe enviar un json que contenga los campos que se desean actulizar, en caso de que sea un numero de documento que no existe en la coleccion se debe agregar en body toda la informacion del usuario a excepcion del numero documento que lo tomara del numero puesto en la url como parametro
+En este servcio se debe agregar el documento que se desea actulizar como se mestra en la imagen, de igual manera en el body se debe enviar un json que contenga los campos que se desean actulizar, en caso de que sea un numero de documento que no existe en la coleccion se debe agregar en body toda la informacion del usuario a excepcion del numero documento que lo tomara del numero puesto en la url como parametro
 
 Despliegue:
 
 para poder ejecutar el proyecto debemos ejecutar los comandos:
 
 docker-compose build
+
 docker-compose up
 
 Autor:

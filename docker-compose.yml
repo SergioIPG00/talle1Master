@@ -2,11 +2,11 @@ version: "3"
 
 services:
   web:
-    container_name: taller1App
+    container_name: taller1MasterApp
     restart: always
     build: .
     ports:
-      - "4000:3000"
+      - "5000:3000"
     links:
       - mongo
     volumes:
@@ -14,10 +14,10 @@ services:
 
   mongo:
     image: mongo
-    container_name: mongodb
+    container_name: mongodbMaster
     restart: always
     ports:
-      - 27018:27017
+      - 27019:27017
     volumes:
       - ./data:/data/db
     #environment:

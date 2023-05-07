@@ -26,7 +26,7 @@ Servicio para elmininar un usuario:
 
 [![ServicioDelete.png](https://github.com/SergioIPG00/talle1Master/blob/ccd14fabb89e7327521a709c763cf7b2230af689/img/ServicioDelete.PNG)
 
-En este servcio se debe agregar el documento que se desea elminar como se mestra en la imagen
+En este servcio se debe agregar el documento que se desea elminar como se muestra en la imagen
 
 Servicio de actulzar un usuario:
 
